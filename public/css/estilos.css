@@ -1,0 +1,112 @@
+ nav {
+     position: sticky !important;
+     top: 0;
+     background: #CCCCCC;
+     z-index: 1000;
+     /*transform: translateY(-40px)*/
+ }
+
+ nav ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 60px;
+     padding: 0;
+     margin-bottom: 0rem !important;
+     list-style-type: none;
+ }
+
+ nav ul li {
+     width: 100%
+ }
+
+ /*PADRE 2*/
+ nav > ul > li > a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     height: 60px;
+     border-top: 3px solid #F2F2F2;
+     color: #818181;
+     font-weight: bold;
+     margin: 0px 1px 1px;
+     text-align: center;
+     font-size: 1em;
+     transition: 0.3s;
+
+ }
+
+ nav > ul > li:hover > a {
+     background: #F2F2F2;
+     cursor: pointer;
+     color: black;
+     border-top: 3px solid #0AB7CD;
+     text-decoration: none;
+     transition: 0.3s;
+     /* box-shadow: 0 0px 2px 0, -1px 9px 3px -6px #f7d50a;*/
+ }
+
+ nav > ul > li > a.active {
+     background: #F2F2F2;
+     color: black;
+     border-top: 3px solid #0AB7CD;
+     transition: 0.3s;
+     /*box-shadow: 0 0px 2px 0, -1px 7px 3px -6px black;*/
+
+
+
+ }
+
+
+ .submenu-btn.active {
+     background: #F2F2F2;
+     color: black;
+     border-top: 3px solid #0AB7CD;
+     transition: 0.3s;
+     /* box-shadow: 0 0px 2px 0, -1px 7px 3px -6px black; */
+ }
+
+div.submenu {
+
+     width: 100%;
+     height: 100px;
+     background: #C0C0C0;
+     display: flex !important;
+     justify-content: flex-start !important;
+     align-items: center;
+     width: 100%;
+     border-bottom: 3px solid #0AB7CD;
+ }
+
+ .submenu-btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-decoration: none;
+     color: #212529;
+     text-align: center;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     background: #CCCCCC;
+     margin: 0 5px;
+     font-size: 0.9rem;
+     border-radius: .20rem;
+     width: 100px;
+     height: 90px;
+     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+ }
+
+ .submenu-btn i {
+     font-size: 40px;
+ }
+
+ .submenu-btn:hover {
+     text-decoration: none;
+     background: #F3F3F3;
+     color: black;
+ }

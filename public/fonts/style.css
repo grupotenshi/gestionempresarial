@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dlnvsr');
+  src:  url('fonts/icomoon.eot?dlnvsr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dlnvsr') format('truetype'),
+    url('fonts/icomoon.woff?dlnvsr') format('woff'),
+    url('fonts/icomoon.svg?dlnvsr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vista:before {
+  content: "\e900";
+}
+.icon-configuracion:before {
+  content: "\e901";
+}
+.icon-importante:before {
+  content: "\e902";
+}
+.icon-mas:before {
+  content: "\e903";
+}
+.icon-menos:before {
+  content: "\e904";
+}
+.icon-ayuda:before {
+  content: "\e905";
+}
+.icon-aadir:before {
+  content: "\e906";
+}
+.icon-eliminar:before {
+  content: "\e907";
+}
+.icon-cubo:before {
+  content: "\e908";
+}
+.icon-otro-mas:before {
+  content: "\e909";
+}
+.icon-flecha:before {
+  content: "\e90a";
+}
