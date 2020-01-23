@@ -58,11 +58,9 @@
 
  }
 
-
  .submenu-btn.active {
      background: #F2F2F2;
      color: black;
-     border-top: 3px solid #0AB7CD;
      transition: 0.3s;
      /* box-shadow: 0 0px 2px 0, -1px 7px 3px -6px black; */
  }
