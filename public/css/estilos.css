@@ -141,7 +141,7 @@ div.submenu {
 .dashboard section {}
 
 
-
+/*
 
 .collapsible-header {
     justify-content: center;
@@ -171,32 +171,32 @@ thead {
     background: #E3E3E3;
     color: #444444
 }
-
-.caja{
-  height: 45%;
+*/
+.caja {
+    height: 45%;
 }
 
-.boxShadow{
-//  box-shadow: 0 1px 3px 0, 0 2px 5px -3px #000;
+.boxShadow {
+    //  box-shadow: 0 1px 3px 0, 0 2px 5px -3px #000;
 }
 
-#btnDashboard{
-  position: absolute;
-  top 90px;
+#btnDashboard {
+    position: absolute;
+    top 90px;
 }
 
-.btn-1{
+.btn-1 {
     background: #D7D7D7;
     color: black;
 }
 
-.btn-1:hover{
+.btn-1:hover {
     background: gray;
     color: white;
 }
 
-.notify{
-  position: absolute;
+.notify {
+    position: absolute;
     background: #FC9900;
     width: 25px;
     height: 25px;
@@ -209,11 +209,121 @@ thead {
 }
 
 
-.grey{
-    background: #E4E4E4!important;
+.grey {
+    background: #E4E4E4 !important;
 }
 
-.caja .btnCancel{
-  position: absolute;
-  right:0;
+.caja .btnCancel {
+    position: absolute;
+    right: 0;
+}
+
+.collapsible-header {
+    border-bottom: 1px solid #CDCDCD;
+    color: #999999;
+}
+
+.collapsible-header.menu {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E3E3E3;
+    font-weight: bold;
+
+}
+
+.collapsible {
+    padding: 0;
+    margin: 0
+}
+
+
+
+
+
+
+
+.bg-gris .row {
+    margin: 0
+}
+
+.collapsible .container {
+    background: #999999;
+}
+
+.container .header.row {
+    background: #E3E3E3;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+
+.bg-gris .row {
+    padding: 0px 0;
+    height: 35px;
+    width: 100%;
+}
+
+.bg-gris-claro .row {
+    padding: 0px 0;
+    width: 100%;
+    margin-bottom: 0;
+    font-weight: normal;
+
+}
+
+.collapsible-body.tabla .row:nth-child(even) {
+    background: white;
+}
+
+.collapsible-body.tabla .row:nth-child(odd) {
+    background: #F5F5F5;
+}
+
+
+.bg-gris .collapsible .row .col-10 {
+    border-right: 1px solid #E3E3E3;
+    height: 100%;
+}
+
+.bg-gris-claro .collapsible .row .col-7 {
+    border-right: 1px solid #E3E3E3;
+    height: 100%;
+}
+
+.bg-gris-claro .collapsible .row {
+    height: 40px;
+}
+
+
+.collapsible-body.tabla {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-gris .collapsible-body.tabla .row .col-10:nth-child(1) {
+    padding-left: 60px;
+}
+
+.bg-gris-claro .collapsible-body.tabla .row .col-10:nth-child(1) {
+    padding-left: 20px;
+}
+
+
+.bg-gris {
+    background: #999999;
+}
+
+.bg-gris-claro {
+    background: #E4E4E4;
+}
+
+.input-field > label {
+    left: 12px !important;
+}
+
+.border {
+    border: 1px solid #CBCBCB !important;
 }
