@@ -73,39 +73,39 @@ return (
                 //<i className="material-icons btnCancel mr-3">cancel</i></div>
 
                 <ul class="collapsible">
-                            <!-- CACORRO EL QUE LO LEA -->
+
                             <li>
                                 <div class="collapsible-header menu text-center "><i class="material-icons">play_arrow</i><span>Formatos</span></div>
                                 <div class="collapsible-body bg-gris-claro">
                                     <div class="row justify-content-around">
 
                                         <div class="input-field col-2">
-                                            <input id="Hora" type="text" class="validate">
+                                            <input id="Hora" type="text" class="validate"/>
                                             <label for="Hora" class="font-weight-bold">Formato de Hora</label>
                                             <i class="material-icons prefix">help</i>
                                         </div>
 
                                         <div class="input-field col-2">
-                                            <input id="fecha" type="text" class="validate">
+                                            <input id="fecha" type="text" class="validate"/>
                                             <label for="fecha" class="font-weight-bold">formato de fecha</label>
                                             <i class="material-icons prefix">help</i>
                                         </div>
 
 
                                         <div class="input-field col-2">
-                                            <input id="numeros" type="text" class="validate">
+                                            <input id="numeros" type="text" class="validate"/>
                                             <label for="numeros" class="font-weight-bold">formato de numeros</label>
                                             <i class="material-icons prefix">help</i>
                                         </div>
 
                                         <div class="input-field col-2">
-                                            <input id="dinero" type="text" class="validate">
+                                            <input id="dinero" type="text" class="validate"/>
                                             <label for="dinero" class="font-weight-bold">formato de dinero</label>
                                             <i class="material-icons prefix">help</i>
                                         </div>
 
                                         <div class="input-field col-2">
-                                            <input id="icon_prefix" type="text" class="validate">
+                                            <input id="icon_prefix" type="text" class="validate"/>
                                             <label for="icon_prefix">First Name</label>
                                             <i class="material-icons prefix">help</i>
                                         </div>
@@ -257,7 +257,7 @@ return (
                                             </li>
 
                                         </ul>
-                
+
                                     </div>
                                 </div>
                             </li>
@@ -463,7 +463,7 @@ return (
                                         <div class="switch">
                                             <label>
                                                 Off
-                                                <input type="checkbox">
+                                                <input type="checkbox"/>
                                                 <span class="lever"></span>
                                                 On
                                             </label>
@@ -471,7 +471,7 @@ return (
                                     </div>
 
 
-                                    <!-- Disabled Switch -->
+
 
                                 </div>
                             </li>
